@@ -1,0 +1,1 @@
+apt-get update && apt-get install -y bind9 && apt-get install -y isc-dhcp-server && apt-get install -y vim
