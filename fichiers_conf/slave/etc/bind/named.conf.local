@@ -1,0 +1,19 @@
+//
+// Do any local configuration here
+//
+zone "julien.com"{
+	type slave;
+	masters {192.168.109.130; };
+	file "/var/cache/bind/db.julien.com";
+	};
+zone "109.168.192.in-addr.arpa"{
+	type slave;
+	masters {192.168.109.130; };
+	notify no;
+	file "/var/cache/bind/db.192";
+
+};
+// Consider adding the 1918 zones here, if they are not used in your
+// organization
+//include "/etc/bind/zones.rfc1918";
+
