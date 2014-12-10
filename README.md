@@ -2,7 +2,7 @@ NetworkDocker
 =============
 
 #1 - Network Topology
-The network topology is composed of two DNS servers, a dhcp server, and a ssh server. Configuration files are situated in subdirectories of /configurationFiles corresponding do their absolutes path in Ubuntu Virtual Machines.
+The network topology is composed of two DNS servers, a dhcp server, and a ssh server, running on three virtual machine. Configuration files are located in subdirectories of /configurationFiles corresponding do their absolutes path in the file system.
 
 #2 - Client And Server Programs in Perl
 
